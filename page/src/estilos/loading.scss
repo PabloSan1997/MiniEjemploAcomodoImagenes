@@ -1,0 +1,16 @@
+.loading{
+    width: 180px;
+    height: 180px;
+    border: 5px solid rgb(8, 2, 34);
+    border-top-color: rgb(133, 131, 233);
+    border-radius: 100%;
+    margin:5% auto;
+    animation: girar 0.8s ease-in-out infinite;
+}
+@keyframes girar {
+    from{
+        transform: rotate(0deg);
+    } to{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,30 @@
+.contenedor{
+    width: 95%;
+    margin:20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px),1fr));
+    gap:20px;
+    .caja{
+        display: flex;
+        flex-direction: column;
+        background: rgb(17, 31, 70);
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 10px;
+        color: white;
+        .foto{
+            max-width: 95%;
+            border-radius: 10px;
+            margin-top: 2%;
+        }
+        h2{
+            margin:5%  auto 2% auto;
+            max-width: 80%;
+        }
+        p{
+            margin-bottom: 5%;
+            max-width: 95%;
+            text-align: center;
+        }
+    }
+}
